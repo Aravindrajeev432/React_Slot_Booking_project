@@ -1,0 +1,33 @@
+#maindiv{
+    animation: rotating 8s linear infinite;
+}
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+.rotateimg{
+    animation: rotatingimg 8s linear infinite;
+}
+@keyframes rotatingimg {
+    from{
+        -webkit-transform: rotate(360deg);
+    }
+    to{
+        -webkit-transform: rotate(0deg);
+    }
+}
+.messageboxdiv{
+    background: url('../../image/messagebox.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.background{
+    background: url('../../image/drawingchair.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
